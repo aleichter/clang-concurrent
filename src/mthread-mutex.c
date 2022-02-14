@@ -6,7 +6,7 @@
 void *myThreadFun()
 {
     sleep(1);
-    printf("Printing GeeksQuiz from Thread \n");
+    printf("Printing from Thread \n");
     return NULL;
 }
    

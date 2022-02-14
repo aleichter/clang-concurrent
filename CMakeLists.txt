@@ -3,12 +3,12 @@ cmake_minimum_required(VERSION 3.5)
 # set the project name
 project(MultithreadingMutex)
 
-#include_directories(include)
+include_directories(include)
 
-#file(GLOB SOURCES "src/*.c")
+file(GLOB SOURCES "src/*.c")
 
 # add the executable
-#add_executable(mthread-mutext ${SOURCES})
+add_executable(mthread-mutext ${SOURCES})
 
 #############################################
 # Unit tests
