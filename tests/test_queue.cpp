@@ -60,7 +60,7 @@ TEST(queueTests, dequeue) {
     free(q);
 }
 
-//Test for destroyQueue
+//Test for emptyQueue
 TEST(queueTests, emptyQueue) {
     struct queue *q;
     q = createQueue();
